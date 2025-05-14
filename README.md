@@ -1,40 +1,51 @@
-<<<<<<< HEAD
-# Proyecto-de-grado
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📌 Descripción del Proyecto
 
-## Getting Started
+Este prototipo de plataforma web fue desarrollado como parte de un proyecto académico de grado para la Universidad Católica de Colombia, en el programa de Ingeniería de Sistemas y Computación. Su objetivo principal es centralizar la gestión, comunicación y visibilidad de los semilleros de investigación de la Facultad de Ingeniería. La plataforma permite a estudiantes y docentes interactuar, compartir documentos, publicar noticias, programar eventos y comunicarse en tiempo real.
 
-First, run the development server:
+🎯 Funcionalidades principales:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Autenticación de usuarios (Firebase Authentication)
+- Publicación de artículos y noticias académicas
+- Gestión de eventos con calendario
+- Subida y visualización de documentos por semillero
+- Chat interno en tiempo real por semillero
+- Panel diferenciado para profesores y estudiantes
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠️ Tecnologías Utilizadas:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Lenguajes y Frameworks:
+- Next.js (framework de React)
+- React
+- TypeScript / JavaScript
+- HTML / CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Backend y Servicios en la Nube:
+- Firebase (Authentication, Firestore, Storage, Hosting)
 
-## Learn More
+Herramientas de Desarrollo:
+- Visual Studio Code
+- Git & GitHub
+- Google Chrome DevTools
 
-To learn more about Next.js, take a look at the following resources:
+🚀 Instalación y ejecución del proyecto:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para iniciar el proyecto localmente, asegúrese de tener Node.js instalado.
+1. Clone el repositorio.
+2. Instale las dependencias con `npm install`.
+3. Inicie el servidor con `npm run dev`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Una vez iniciado, puede acceder al proyecto en: http://localhost:3000
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📂 Documentación
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> e0ea67c (Subida inicial del proyecto de grado)
+- Manual Técnico
+- Manual de Usuario
+- Diagramas de Arquitectura y Despliegue
+- Encuestas y análisis de requerimientos
+
+
+📝 Licencia
+
+Este proyecto fue desarrollado con fines académicos. Uso limitado a la Universidad Católica de Colombia.
+
